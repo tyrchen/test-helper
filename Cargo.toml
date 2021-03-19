@@ -1,0 +1,21 @@
+[package]
+name = "test-helper"
+version = "0.1.0"
+authors = ["Tyr Chen <tyr.chen@gmail.com>"]
+edition = "2018"
+license = "MIT"
+documentation = "https://docs.rs/test-helper"
+repository = "https://github.com/tyrchen/test-helper"
+homepage = "https://github.com/tyrchen/test-helper"
+description = """
+Helper functions for testing.
+"""
+readme = "README.md"
+categories = ["development-tools"]
+keywords = ["test"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tracing-subscriber = "0.2"
+lazy_static = "1"
